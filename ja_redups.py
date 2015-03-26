@@ -13,7 +13,7 @@ class JapaneseReduplicator(object):
     consonants = "rpbtdkgszhmnyw"
     sounds = vowels + consonants
     # these sequences are unattested in modern standard Japanese
-    invalid_sequences = {"wi", "we", "wu"}
+    invalid_sequences = {"wi", "we", "wu", "yi", "ye"}
 
     def __init__(self, pattern):
        if "CC" in pattern:
